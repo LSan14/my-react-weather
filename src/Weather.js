@@ -24,21 +24,27 @@ export default function Weather() {
         <li>Monday 12:00 PM</li>
         <li>Sunny</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="Sunny"
-          />
-          <span className="temperature"> 71 </span>
-          <span className="unit">°F |° C</span>
+          <div className="clearfix">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Sunny"
+            />
+
+            <span className="temperature"> 71 </span>
+            <span className="unit">°F |°C</span>
+          </div>
         </div>
+
         <div className="col-6">
-          <ul>
-            <li>Precipitation: 0% </li>
-            <li> Wind: 4 mph </li>
-            <li> Humidity: 35% </li>
-          </ul>
+          <div className="d-flex justify-content-end ">
+            <ul>
+              <li>Precipitation: 0% </li>
+              <li> Wind: 4 mph </li>
+              <li> Humidity: 35% </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
