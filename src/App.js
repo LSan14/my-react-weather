@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Los Angeles" />
         <footer>
           This project is coded by Lizeth Sandoval and is open-source in{" "}
           <a href="https://github.com/LSan14/my-react-weather" target="_blank">
