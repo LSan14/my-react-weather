@@ -45,4 +45,10 @@
   position: relative;
   line-height: 1;
   top: -34px;
+  padding: 10px;
+}
+
+.justify-content-end {
+  padding: 5px auto;
+  margin: 5px 15px 5px 5px;
 }
